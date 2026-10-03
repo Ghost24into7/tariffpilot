@@ -2,7 +2,6 @@
 
 > **Evidence-grounded AI decision support for US HTS customs classification.**
 
-[![CI](https://github.com/Ghost24into7/tariffpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Ghost24into7/tariffpilot/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Tests](https://img.shields.io/badge/offline%20tests-69%20passing-2ea44f)](./tests)
