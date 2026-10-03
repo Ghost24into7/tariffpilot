@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+.state/
+.venv/
+.coverage
+data/raw/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local assistant/developer instructions
+AGENTS.md
+.github/copilot-instructions.md

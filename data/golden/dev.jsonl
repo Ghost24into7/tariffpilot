@@ -1,0 +1,12 @@
+{"id":"d01","text":"Men's crew neck short sleeve t-shirt, 100% cotton jersey knit, screen printed","expected_code":"6109.10.00","expected_abstain":false}
+{"id":"d02","text":"Women's sports top, short sleeve, knitted 100% polyester, quick dry","expected_code":"6109.90.10","expected_abstain":false}
+{"id":"d03","text":"Unisex pullover hoodie with front pocket, cotton fleece knit","expected_code":"6110.20.20","expected_abstain":false}
+{"id":"d04","text":"Android smartphone 6.5 inch 5G with SIM slot","expected_code":"8517.13.00","expected_abstain":false}
+{"id":"d05","text":"Wireless bluetooth earbuds with charging case and microphone","expected_code":"8518.30.20","expected_abstain":false}
+{"id":"d06","text":"Ultrabook laptop 13 inch with keyboard weighing 1.2 kg","expected_code":"8471.30.01","expected_abstain":false}
+{"id":"d07","text":"10000 mAh lithium ion portable power bank with USB-C","expected_code":"8507.60.00","expected_abstain":false}
+{"id":"d08","text":"Insulated stainless steel travel mug 500 ml with lid","expected_code":"7323.93.00","expected_abstain":false}
+{"id":"d09","text":"Wooden writing desk with two drawers, solid oak","expected_code":"9403.60.80","expected_abstain":false}
+{"id":"d10","text":"Roasted arabica coffee beans, medium roast, 1 kg bag","expected_code":"0901.21.00","expected_abstain":false}
+{"id":"d11","text":"clothing","expected_code":null,"expected_abstain":true}
+{"id":"d12","text":"gift item","expected_code":null,"expected_abstain":true}

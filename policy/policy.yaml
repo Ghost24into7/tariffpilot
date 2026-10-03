@@ -1,0 +1,19 @@
+version: 1
+confidence_floor: 0.55
+max_steps: 6
+max_obs_chars: 1200
+llm_calls_per_request: 8
+data_policy: public-data-only
+allowed_models: [gemini-flash-latest, gemini-flash-lite-latest]
+authorized_reviewers: [reviewer-1]
+feedback_per_reviewer_per_day: 20
+retention_days: 90
+restricted_keywords:
+  - {id: li-battery, patterns: ["lithium", "li-ion", "power bank"], action: review, message: "Lithium batteries are dangerous goods for air/sea shipping; check carrier and customs rules."}
+  - {id: dual-use-drone, patterns: ["drone", "uav", "quadcopter"], action: review, message: "Possible export-control (dual-use) item; verify licensing."}
+  - {id: dual-use-optics, patterns: ["night vision", "thermal imaging", "encryption"], action: review, message: "Possible dual-use item; verify licensing."}
+  - {id: sanctions, patterns: ["sanctioned", "embargo"], action: review, message: "Sanctions/embargo mention; escalate to compliance."}
+eval_gate:
+  accuracy_6_min: 0.7
+  hallucination_max: 0.0
+  citation_faithfulness_min: 0.95

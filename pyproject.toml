@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tariffpilot"
+version = "0.1.0"
+description = "Agentic customs-classification copilot (ReAct, hybrid RAG, guardrails, audit, evals) on free tiers"
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+gemini = ["google-genai>=1.0"]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+ui = ["streamlit>=1.35"]
+otel = ["opentelemetry-sdk>=1.25", "opentelemetry-exporter-otlp>=1.25"]
+dev = ["pytest>=8", "pytest-cov", "ruff", "mypy", "types-PyYAML", "httpx"]
+
+[project.scripts]
+tariffpilot = "tariffpilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501", "E701", "E702", "E731"]

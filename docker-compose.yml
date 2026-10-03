@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    ports: ["8000:8000"]
+    volumes: ["tp_state:/app/.state"]
+  phoenix:            # optional OTel UI: docker compose --profile obs up
+    image: arizephoenix/phoenix:latest
+    profiles: ["obs"]
+    ports: ["6006:6006", "4317:4317"]
+volumes:
+  tp_state:

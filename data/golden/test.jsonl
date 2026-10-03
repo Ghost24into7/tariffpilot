@@ -1,0 +1,10 @@
+{"id":"t01","text":"Kids' plastic building blocks set, 300 pieces, ages 4+","expected_code":"9503.00.00","expected_abstain":false}
+{"id":"t02","text":"Wifi 6 wireless router dual band with four antennas","expected_code":"8517.62.00","expected_abstain":false}
+{"id":"t03","text":"Nylon gym duffel bag with shoulder strap","expected_code":"4202.92.31","expected_abstain":false}
+{"id":"t04","text":"Hydrating face cream with hyaluronic acid, 50 ml jar","expected_code":"3304.99.50","expected_abstain":false}
+{"id":"t05","text":"Set of polypropylene food storage containers with lids","expected_code":"3924.10.40","expected_abstain":false}
+{"id":"t06","text":"Green coffee beans unroasted, 60 kg sack","expected_code":"0901.11.00","expected_abstain":false}
+{"id":"t07","text":"Men's t-shirt knitted cotton plain white","expected_code":"6109.10.00","expected_abstain":false}
+{"id":"t08","text":"Wooden bookshelf with five shelves, pine","expected_code":"9403.60.80","expected_abstain":false}
+{"id":"t09","text":"item","expected_code":null,"expected_abstain":true}
+{"id":"t10","text":"Tablet computer 10 inch with touchscreen, 0.5 kg","expected_code":"8471.30.01","expected_abstain":false}

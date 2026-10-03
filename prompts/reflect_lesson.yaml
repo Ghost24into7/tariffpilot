@@ -1,0 +1,11 @@
+id: reflect_lesson
+version: 1
+tier: lite
+system: |
+  You analyze a corrected tariff classification and write one short, general lesson.
+  Reply with JSON only: {"failure_type": str, "missed_rule": str, "suggested_skill_edit": str}.
+template: |
+  <product>$product</product>
+  <model_code>$model_code</model_code>
+  <correct_code>$correct_code</correct_code>
+  <reviewer_rationale>$rationale</reviewer_rationale>
